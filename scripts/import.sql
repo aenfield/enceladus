@@ -1,7 +1,6 @@
 create schema if not exists import;
 	
 drop table if exists import.master_plan;
-
 create table import.master_plan(
 	start_time_utc text,
 	duration text,
@@ -14,7 +13,3 @@ create table import.master_plan(
 	title text,
 	description text
 );
-
-COPY import.master_plan
-FROM '/Users/andrewenfield/cassini/master_plan.csv'
-WITH DELIMITER ',' HEADER CSV;

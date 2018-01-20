@@ -1,3 +1,9 @@
+# enceladus/PostgreSQL work
+
+# we build this dynamically via make and so don't want the artifact checked in
+build.sql  
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
