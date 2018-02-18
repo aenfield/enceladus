@@ -1,7 +1,8 @@
 
 -- first load the data, unmodified, into an import table
 COPY import.master_plan
-FROM '/Users/andrewenfield/cassini/master_plan.csv'
+FROM 'C:\Users\Public\master_plan.csv'
+--FROM '/Users/andrewenfield/cassini/master_plan.csv'
 WITH DELIMITER ',' HEADER CSV;
 
 drop table if exists events cascade;

@@ -3,6 +3,9 @@
 # we build this dynamically via make and so don't want the artifact checked in
 build.sql  
 
+# and don't want HTML files we've output
+*.html
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
